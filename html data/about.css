@@ -1,0 +1,221 @@
+body{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red; 
+}
+header{
+  width: 100%;
+  height: 15vh;
+}
+.home-text{
+    background-color: white;
+    display: inline;
+    color: black;
+    font-weight: bold;
+    margin-left: 1rem;
+
+}
+
+.heading{
+  display: flex;
+  justify-content:space-evenly;
+  text-align: center;
+  text-shadow: rgb(125, 100, 236) 1px 2px 2px;
+}
+
+
+.section1{
+    background-color: black;
+    height: 15vh;
+}
+.flex-container {
+    display: flex; /* Prevent flex items from wrapping */
+     overflow: auto;    
+          /*Add scrollbar if content overflows */
+     /* Set a fixed width for demonstration */
+    border: 1px solid #ccc;
+ 
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .flex-item {
+    flex: 1 1 12%; /*Flex-grow, flex-shrink, flex-basis */
+    width: 120px; /* Set width for demonstration */
+    height: 200px; 
+    flex-direction: row;
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+    margin: 5px;
+    text-align: center;
+    
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  .header img{
+    width: 100rem;
+    height: 100rem;
+  }
+
+  .flex-item>img{
+    width: 100%;
+    height: 85%;
+  }
+  .flex-item>div{
+    padding: 0px;
+    margin: 0px;
+  }
+  .flex-item-btn{
+    margin-bottom: 1px;
+    margin-right: 1px;
+    cursor: pointer;
+    display: inline;
+  }
+  .flex-item h4{
+    margin-top: 1.7rem;
+    color: red;
+    margin-bottom: 0px;
+
+
+  }
+  .clicknow1{
+    padding: 2%;
+    color:white;
+    background-color:black;
+    border-radius: 20%;
+    margin: 2%;
+    margin-bottom: 20%;
+  }
+  .clicknow1:hover{
+    padding: 2%;
+    color:rgba(0, 0, 0, 0.952);
+    background-color:white;
+    border-radius: 20%;
+    margin: 2%;
+    margin-bottom: 20%;
+  }
+
+/* section2 start  */
+/* media quarry start */
+@media screen and (max-width:1024px) {
+  .flex-container{
+    background-color: rgb(231, 228, 12);
+
+  }
+  .flex-item{
+    flex: 1 1 25%;
+  }
+}
+@media screen and (max-width:768px) {
+  .flex-container{
+    background-color: green;
+
+  }
+  .flex-item{
+    /* width: 38%; */
+    flex: 1 1 40%;
+  }
+}
+
+@media screen  and (max-width:600px){
+  .flex-container{
+    background-color: red;
+  }
+  .flex-item{
+    flex: 1 1 100%;
+  }
+  
+}
+
+/* media quarry stop */
+
+
+
+.flex-container_1 {
+  display: flex; /* Prevent flex items from wrapping */
+  overflow: auto; /* Add scrollbar if content overflows */
+   /* Set a fixed width for demonstration */
+  border: 1px solid #ccc;
+  height: 20rem;
+  flex-direction: row;
+}
+
+.flex-item_1{
+  flex: 0 0 auto; /* Flex-grow, flex-shrink, flex-basis */
+  width: 100px; /* Set width for demonstration */
+  height: 200px; 
+  background-color: #f0f0f0;
+  border: 1px solid #999;
+  margin: 5px;
+  
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  
+}
+.header img{
+  width: 100rem;
+  height: 100rem;
+}
+
+.flex-item_1>img{
+  width: 100%;
+  height: 85%;
+}
+.flex-item_1>div{
+  padding: 0px;
+  margin: 0px;
+}
+.clicknow2{
+  padding: 2%;
+  color:white;
+  background-color:black;
+  border-radius: 20%;
+  margin: 2%;
+  margin-bottom: 20%;
+}
+.clicknow2:hover{
+  padding: 2%;
+  color:rgba(0, 0, 0, 0.952);
+  background-color:white;
+  border-radius: 20%;
+  margin: 2%;
+  margin-bottom: 20%;
+}
+.flex-item_1 h4{
+  margin-top: 1.7rem;
+  color: red;
+  margin-bottom: 0px;
+}
+
+/* section2 end  */
+/* section3 start */
+.section3{
+ height: 10vh;
+}
+
+/* section3 end */
+/* footer start */
+.footer-main{
+    background-color: firebrick;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    /* gap: 10px; */
+    
+}
+
+.footer>img{
+/* display: flex; */
+width: 1rem;
+height: 1rem;
+}
+
+/* footer end */

@@ -1,0 +1,50 @@
+.headerhome{
+    background-color:rgb(241, 36, 241);
+    height: 18vh;
+
+}
+.home-texthome{
+  background-color: white;
+  display: inline;
+  color: black;
+  font-weight: bold;
+  margin: 1rem;
+  background-color: yellowgreen;
+}
+.h3headinghome{
+  /* display: flex; */
+  text-align: center;
+  font-weight: 700;
+  color: rgb(5, 218, 5);
+  text-shadow: rgb(240, 243, 35) 4px 2px 2px;
+}
+.header2home{
+    display: flex;
+    /* padding-top: 1rem; */
+    gap: 1rem;
+    margin-top: .5rem;
+    
+}
+.header2home button{
+  background-color: yellow;
+  color: red;
+}
+.header2home button:hover{
+  background-color: red;
+  color:white;
+}
+/* search css   */
+header{
+  width: 100%;
+  height: 15vh;
+}
+.search-bar{
+  display: flex;
+  gap: 1rem;  
+}
+.goback{
+  display: inline;
+  float: left;
+}
+
+
